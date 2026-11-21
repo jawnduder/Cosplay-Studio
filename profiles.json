@@ -1,0 +1,628 @@
+{
+ "BP_CharacterSkinBase_Noah": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Noah/Animations/Locomotion/Noah_Idle_World_FeetFixed"
+   ],
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_07_ShoulderRArm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_08_ShoulderLArm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_03_CheckWatch_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_04_LookAround_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_05_LookAround_UE5"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_Noah",
+   "Sprint": "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/Sciel_Sprint",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Noah_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkinBase_Lune": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Lune/Animations/BattleTurn/Lune_Idle_World_01_V2"
+   ],
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Lune/IdleBreaks/Idles_Lune_Break_LookAround_02",
+    "/Game/Animations/Idles/Idles_Lune/IdleBreaks/Idles_Lune_Break_HandOnHips_01",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_LookBehind_02"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/BS_WalkRun_Sciel_LuneVersion",
+   "Sprint": "/Game/Characters/Heros/Lune/Animations/Locomotion/Lune_Sprint_V3",
+   "SprintStart": "/Game/Characters/Heros/Lune/Animations/Locomotion/Lune_Sprint_V2_Start02",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Lune_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkinBase_Maelle": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Maelle/Animations/Locomotion/Maelle_Idle_World_V2"
+   ],
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Maelle/Animations/Locomotion/BS_WalkRun_Sciel_MaelleVersion",
+   "Sprint": "/Game/Characters/Heros/Maelle/Animations/Locomotion/Maelle_Sprint_V6",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Maelle_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkinBase_Monoco": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Monoco/Animations/KeyFrame/BattleTurn/Monoco_IdleWorld"
+   ],
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_12_Shoulders_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Fidget/Pack_MCIdlesPack_am_Stand_Idle_Fidget_06_ScratchFace_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_02_BackBend_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Hot/Pack_MCIdlesPack_am_Stand_Idle_Hot_03_FanLHand_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Hot/Pack_MCIdlesPack_am_Stand_Idle_Hot_06_NeckRHand_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Hot/Pack_MCIdlesPack_am_Stand_Idle_Hot_09_SunShadeLHand_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/ListenMusic/Pack_MCIdlesPack_am_Stand_Idle_ListenMusic_Loop_04_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_10_WarmUp_UE5"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Monoco/Animations/KeyFrame/BattleTurn/ALS_UE5_Monoco",
+   "Sprint": "/Game/Characters/Heros/Monoco/Animations/KeyFrame/BattleTurn/Monoco_Sprint",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Monoco_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkinBase_Sciel": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/Sciel_Idle_World"
+   ],
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_RotateArms_02",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_HandsOnHips_01",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_07_LookAround_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_01_SideBend_UE5_Sciel"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/BS_WalkRun_Sciel",
+   "Sprint": "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/Sciel_Sprint_V1",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Sciel_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkinBase_Verso": {
+  "own": {
+   "Idle": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Shift/Pack_MCIdlesPack_am_Stand_Idle_ShiftR_Loop_02_UE5"
+   ],
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/BrushOff/Pack_MCIdlesPack_am_Stand_Idle_BrushOff_07_Arm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/BrushOff/Pack_MCIdlesPack_am_Stand_Idle_BrushOff_06_Arm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Fidget/Pack_MCIdlesPack_am_Stand_Idle_Fidget_02_RubNeck_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Shift/Pack_MCIdlesPack_am_Stand_Idle_ShiftR_Stop_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Fidget/Pack_MCIdlesPack_am_Stand_Idle_Fidget_03_RubNeck_UE5"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_Verso",
+   "Sprint": "/Game/Characters/Heros/Sciel/Animation/Turn/Keyframe/Sciel_Sprint_MaleVersion",
+   "Dialogue": "/Game/Characters/Heros/Camps/ABP_Verso_NPC"
+  },
+  "parent": "BP_CharacterSkinBase"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Alicia": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkinBase_Noah_MirrorRenoir": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkinBase_Noah_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_LuneOutfit_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_VersoOutfit_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_Monoco_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_ScielOutfit_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Pure": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkinBase_Noah_LumiereSuit": {
+  "own": {
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_Noah_LumiereStartCostume"
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Potatoe_Bag": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_VersoOutfit_Pelerin": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_VersoOutfit_Mirror": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_LuneOutfit_Sirene": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Sirene": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkinBase_Noah_Potatoe_Bag": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_LuneOutfit_Potato_Bag": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_LuneOutfit_Danseuse": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_PotatoBag": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_ScielOutfit_Danseuse": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_ActeIII": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_ActeIII",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Bikini": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_ScielOutfit_BikiniA": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_RotateArms_02",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_HandsOnHips_01",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_07_LookAround_UE5"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_ScielOutfit_BikiniB": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_RotateArms_02",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_HandsOnHips_01",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_07_LookAround_UE5"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_LuneOutfit_BikiniA": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_LuneOutfit_BikiniB": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkinBase_Noah_Bikini": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_BikiniA": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_VersoOutfit_BikiniB": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_MaelleOutfit_PotatoBag": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_Flower",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_Lumiere": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_Monoco_Bikini": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_VersoOutfit_NoArmBand": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_LuneOutfit_Clea": {
+  "own": {
+   "Sprint": "/Game/Characters/Heros/Lune/Animations/Locomotion/Lune_Sprint_V4_CleaSkirt"
+  },
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Clea": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_ScielOutfit_Clea": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_CivilianSkirt": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_LuneOutfit_CivilianSkirt": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_CivilianSkirt": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkinBase_Noah_RealRenoir": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_RealRenoir": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_VersoOutfit_Simple": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkinBase_Noah_Red": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_MaelleOutfit_CivilianLumiere": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Maelle/Animations/Locomotion/Maelle_Idle_World_Civil_V2"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkinBase_Noah_Civil": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_08_ShoulderLArm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_03_CheckWatch_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_04_LookAround_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_05_LookAround_UE5"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Civil": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_ScielOutfit_Civil": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_LuneOutfit_Civil": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkinBase_Noah_FlowerSuit": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_FlowerSuit": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_LuneOutfit_FlowerSuit": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_FlowerSuit": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_FlowerSuit": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Heros/Maelle/Animations/Locomotion/Maelle_Idle_World_Civil_V2"
+   ],
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_Flower",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_FlowerSuit": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkinBase_Noah_Obscur": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Obscur": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Clair": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkinBase_Noah_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_LuneOutfit_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Obscur": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_VersoOutfit_Clair": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkinBase_Noah_Clair": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_Monoco_Civilian": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkinBase_Noah_Gommage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Gommage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_LuneOutfit_Gommage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Gommage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Gommage": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_Flower",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_01"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_Gommage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Lumiere": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_LuneOutfit_Chic": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Chic": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkinBase_Noah_Chic": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_08_ShoulderLArm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_03_CheckWatch_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_04_LookAround_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_05_LookAround_UE5"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Chic": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Chic": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_Chic": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_LuneOutfit_Esquie": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Esquie": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkinBase_Noah_Esquie": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_Idle_HumanVersion"
+   ],
+   "Breaks": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle04_esquie_Anim",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle03_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle02_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle01_esquie_Anim"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_EsquieMainChar",
+   "Sprint": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_MovingFoward_Car_HumanVersion_V2"
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Esquie": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_Idle_HumanVersion"
+   ],
+   "Breaks": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle04_esquie_Anim",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle03_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle02_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle01_esquie_Anim"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_EsquieMainChar",
+   "Sprint": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_MovingFoward_Car_HumanVersion_V2"
+  },
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Esquie": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_Maelle_EsquieSkin"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_Esquie": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_LuneOutfit_Osquio": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Lune"
+ },
+ "BP_CharacterSkin_ScielOutfit_Osquio": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Sciel"
+ },
+ "BP_CharacterSkinBase_Noah_Osquio": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Enemies/Verso_Draft/Osquio/Animations/Osquio_Idle02_HumanVersion"
+   ],
+   "Breaks": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle04_esquie_Anim",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle03_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle02_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle01_esquie_Anim"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_EsquieMainChar",
+   "Sprint": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_Movingforward_Fly_HumanVersion",
+   "SprintStart": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_BoattoFly_Transition_HumanVersion"
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_VersoOutfit_Osquio": {
+  "own": {
+   "Idle": [
+    "/Game/Characters/Enemies/Verso_Draft/Osquio/Animations/Osquio_Idle02_HumanVersion"
+   ],
+   "Breaks": [
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle04_esquie_Anim",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle03_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle02_esquie_Anim_HumanVersion",
+    "/Game/Characters/NPCs/Esquie/animation/Locomotion/IdleBreak/Esquie_Normal_R_Idle01_esquie_Anim"
+   ],
+   "WalkRun": "/Game/Characters/Heros/Noah/Animations/Locomotion/BS_Movement_EsquieMainChar",
+   "Sprint": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_Movingforward_Fly_HumanVersion",
+   "SprintStart": "/Game/Characters/NPCs/Esquie/animation/Locomotion/Esquie_BoattoFly_Transition_HumanVersion"
+  },
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkin_MaelleOutfit_Osquio": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/Idles/Idles_Maelle/Idles_dust_off_Maelle_UE5_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_look_around_Maelle_02_UE5_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Maelle/Idles_Maelle_Break_HandsOnHips_EsquieSkin",
+    "/Game/Animations/Idles/Idles_Sciel/IdleBreaks/Idles_Sciel_Break_ArmsInFront_Maelle_EsquieSkin"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Maelle"
+ },
+ "BP_CharacterSkin_Monoco_Osquio": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ },
+ "BP_CharacterSkin_VersoOutfit_Visage": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Verso"
+ },
+ "BP_CharacterSkinBase_Noah_Visage": {
+  "own": {
+   "Breaks": [
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Stretch_08_ShoulderLArm_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Stretch/Pack_MCIdlesPack_am_StandWide_Trans_Stand_Idle_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_03_CheckWatch_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_04_LookAround_UE5",
+    "/Game/Animations/AnimPacks/Idles/MC_Idles_Pack/Waiting/Pack_MCIdlesPack_am_Stand_Idle_Waiting_05_LookAround_UE5"
+   ]
+  },
+  "parent": "BP_CharacterSkinBase_Noah"
+ },
+ "BP_CharacterSkin_Monoco_Baguette": {
+  "own": {},
+  "parent": "BP_CharacterSkinBase_Monoco"
+ }
+}

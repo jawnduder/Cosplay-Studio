@@ -1,0 +1,19 @@
+Cosplay Studio - third-party notices
+====================================
+Cosplay Studio's code is original. It reads and writes Unreal Engine 5.4 cooked / IoStore files itself; no code from retoc,
+UAssetGUI or UAssetAPI is included or required.
+
+Algorithms reimplemented in Python:
+- CityHash64 - Copyright (c) 2011 Google, Inc. MIT License. (Unreal Engine package / container ids and name hashes.)
+- BLAKE3 - by Jack O'Connor, Samuel Neves, Jean-Philippe Aumasson, Zooko Wilcox-O'Hearn; reference implementation released
+  under CC0 1.0 / Apache License 2.0. (IoStore chunk hashes.)
+
+Bundled libraries (in the _internal folder):
+- Qt for Python (PySide6) and Qt - The Qt Company, LGPL v3 (https://www.qt.io/qt-for-python, source:
+  https://code.qt.io/cgit/pyside/pyside-setup.git). The Qt / PySide6 DLLs are separate files and can be replaced.
+- Python - Python Software Foundation License.
+- PyInstaller bootloader - GPL v2 with the bootloader exception (allows distribution with any program).
+
+Game content: Clair Obscur: Expedition 33 is (c) Sandfall Interactive / Kepler Interactive. The outfit and haircut icons, the
+animation catalog, the BS_Movement_Noah template and the modified BP_CharacterSkinComponent are derived from the game's files
+and are included only so the tool can build mods for the game. All rights to them remain with their owners.

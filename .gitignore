@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+build_tmp/
+dist/
+release/
+Builds/
+Projects/
+studio_config.json

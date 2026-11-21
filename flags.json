@@ -1,0 +1,32 @@
+{
+ "/Game/Animations/AnimPacks/JeetKuneDo_Animset/A_walk_front_UE5": {
+  "bugged": "Breaks on heroes (Gestral test)"
+ },
+ "/Game/Animations/AnimPacks/JeetKuneDo_Animset/A_run_front_UE5": {
+  "bugged": "Breaks on heroes (Gestral test)"
+ },
+ "/Game/Animations/AnimPacks/Giant_Golem_AnimSet/Walk_Front_UE5": {
+  "bugged": "Breaks on heroes (Gestral test)"
+ },
+ "/Game/Characters/Enemies/MonocoMountain/Dancer/Animations/Danseuse_Idle_Fixed": {
+  "bugged": "Head sits off the neck"
+ },
+ "/Game/Characters/Enemies/MonocoMountain/Dancer/Animations/Danseuse_walk": {
+  "bugged": "Head sits off the neck"
+ },
+ "/Game/Characters/Enemies/MonocoMountain/Dancer/Animations/Danseuse_run": {
+  "bugged": "Head sits off the neck"
+ },
+ "/Game/Characters/Enemies/MonocoMountain/MirrorRenoir/Anims/Keyframe/Renoir_Idle_World_NoCane": {
+  "bugged": "Hand grips an invisible coat lapel"
+ },
+ "/Game/Characters/Gestrals/Mime/Anims/AS_Mime_Idle01_Loop": {
+  "bugged": "Shoulders slump on Gustave / Verso"
+ },
+ "/Game/Characters/Enemies/AncientSanctuary/PotatoBagMage/Animation/Keyframe/PotatoBag_Mage_Walk_Root": {
+  "bugged": "Root motion: drifts / snaps"
+ },
+ "/Game/Characters/Enemies/AncientSanctuary/PotatoBagMage/Animation/Keyframe/PotatoBag_Mage_Run_Root": {
+  "bugged": "Root motion: drifts / snaps"
+ }
+}
